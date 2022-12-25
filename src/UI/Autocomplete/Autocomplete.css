@@ -1,0 +1,33 @@
+textarea {
+  width: 500px;
+  height: 100px;
+}
+
+.autocomlete__wrapper {
+  width: 500px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.autocomlete__item {
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.autocomlete__item:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.autocomlete__item-name {
+  width: 150px;
+  cursor: pointer;
+}
+
+.autocomlete__item-full-name {
+  width: 260px;
+  cursor: pointer;
+}
