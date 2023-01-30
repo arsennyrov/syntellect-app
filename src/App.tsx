@@ -27,8 +27,8 @@ function App() {
   
       <h2 className="App__task-title">Задание 2</h2>
       <div className="App__autocomplete-wrapper">
-        <Autocomplete count={10} />
-        <Autocomplete count={3} />
+        <div><Autocomplete count={10} /> </div>
+        <div><Autocomplete count={3} /> </div>
       </div>
     </div>
   );

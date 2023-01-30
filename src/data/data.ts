@@ -1,7 +1,7 @@
 import control from '../UI/TextControl/store';
 import { myButton } from '../models';
 
-export const text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae delectus culpa hic assumenda, voluptate reprehenderit dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit, eveniet ex deserunt fuga?'
+export const text = 'Сама компания очень успешная. Выбор удовольствия дискомфорта является здесь ошибкой, он обвиняет удовольствие в боли, но когда он ненавидит что-либо видеть. Сбежит ли он из пустыни с болью, которую хочет?'
 control.putText(text)
 
 export const buttonsRight: myButton[] = 
@@ -14,8 +14,8 @@ export const buttonsRight: myButton[] =
     
     {
       side: 'R', 
-      title: 'Hello', 
-      callBack: () => {control.putText('Hello world!')}
+      title: 'Привет!', 
+      callBack: () => {control.putText('Привет, мир!')}
     }   
   ]
 

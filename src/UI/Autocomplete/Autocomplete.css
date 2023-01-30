@@ -1,19 +1,15 @@
 textarea {
-  width: 500px;
-  height: 100px;
+  width: 40vw;
+  height: 20vh;
 }
 
 .autocomlete__wrapper {
-  width: 500px;
+  width: 40vw;
   background-color: #fff;
   padding: 0 10px;
 }
 
 .autocomlete__item {
-  padding: 10px 0;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid gray;
 }
